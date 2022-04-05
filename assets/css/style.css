@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Athene';
+    src: url('../fonts/Athene.otf');
+}
+
+/* color: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883 */
+
+/* ================================================
+        GENERAL STYLES 
+================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* ================================================
+        HEADER STYLES 
+================================================= */
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    color: #042A5A;
+    border-bottom: 1px solid #042A5A;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+}
+
+header p {
+    font-size: 1.4rem;
+    display: inline-block;
+    padding: 3vh 62vw 3vh 10vw;
+}
+
+header h1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: inline-block;
+}
+
+/* ================================================
+        MAIN STYLES 
+================================================= */
+
+main {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
+
+/* ================================================
+        MAIN SECTION 1 
+================================================= */
+
+main section:first-of-type {
+    background-color: #EFE8D7;
+    padding-top: 15vh;
+}
+
+main section:first-of-type h2 {
+    font-family: 'Athene', serif;
+    font-size: 14rem;
+    font-weight: 400;
+    color: #042A5A;
+    border-bottom: 1px solid #D2D2D2;
+    display: inline;
+    margin: 0 12.5vw;
+}
+
+main section:first-of-type h2:nth-of-type(2) {
+    padding: 0 10vw;
+}
+
+
+main section:first-of-type img {
+    display: block;
+    padding: 10vh 34vw 0 34vw;
+}
+
+main section:first-of-type p {
+    padding: 5vh 0 20vh 34vw;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 200;
+    color: #042A5A;
+}
+
+main section:first-of-type p span {
+    font-family: 'Athene';
+    font-weight: 400;
+}
+
+/* ================================================
+        MAIN SECTION 2
+================================================= */
+
+main section:nth-of-type(2) {
+    background-color: #F4C4C4;
+    padding-top: 15vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #282B29;
+}
+
+main section:nth-of-type(2) p:first-of-type {
+    padding: 0 0 8vh 10vw;
+
+}
+
+main section:nth-of-type(2) h2 {
+    font-family: 'Athene';
+    font-size: 14rem;
+    font-weight: 400;
+    color: #282B29;
+}
+
+main section:nth-of-type(2) p:nth-of-type(2) {
+    color: #282B29;
+    font-size: 1.6rem;
+    padding: 0 10vw 0 51vw;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+}
+
+main section:nth-of-type(2) table {
+    font-family: 'Open Sans', sans-serif;
+    color: #282B29;
+    padding: 10vh 10vw 0 45vw;
+}
+
+main section:nth-of-type(2) table tr th {
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-bottom: 1px solid #282B29;
+    width: 100%;
+}
+
+main section:nth-of-type(2) table tr td:first-of-type {
+    font-size: 0.9rem;
+    border-bottom: 1px solid #282B29;
+    width: 10%
+}
+
+main section:nth-of-type(2) table tr td:nth-of-type(2) {
+    font-size: 1.4rem;
+    width: 80%;
+    border-bottom: 1px solid #282B29;
+}
+
+main section:nth-of-type(2) table tr td:last-of-type {
+    text-align: right;
+    font-size: 0.9rem;
+    width: 10%;
+    border-bottom: 1px solid #282B29;
+    padding: 2vh 0;
+}
+
+main section:nth-of-type(2) img {
+    display: inline-block;
+    width: 10vw;
+    height: auto;
+    margin: 10vh 10vw 20vh 80vw;
+}
+
+/* ================================================
+        MAIN SECTION 3 
+================================================= */
+
+main section:nth-of-type(3) {
+    background-color: #DEB873;
+    padding-top: 15vh;
+    font-size: 1.4rem;
+    color: #7D2222;
+}
+
+main section:nth-of-type(3) p:first-of-type {
+    padding: 0 10vw 8vh 0;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main section:nth-of-type(3) h2 {
+    font-family: 'Athene';
+    font-size: 14rem;
+    font-weight: 400;
+    color: #7D2222;
+    text-align: right;
+}
+
+main section:nth-of-type(3) p:nth-of-type(2) {
+    color: #7D2222;
+    font-size: 1.6rem;
+    padding: 0 51vw 0 10vw;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+}
+
+main section:nth-of-type(3) article {
+    padding-bottom: 1vh;
+}
+
+main section:nth-of-type(3) article h3 {
+    color: #7D2222;
+    font-family: 'Athene';
+    font-size: 5.5rem;
+}
+
+main section:nth-of-type(3) article h3:first-of-type {
+    background-image: url('../img/bg-marconatto-1.jpg');
+    background-size: 50vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 20vh 10vw 30vh 10vw;
+    padding-bottom: 30vh;
+}
+
+main section:nth-of-type(3) article h3:nth-of-type(2) {
+    background-image: url('../img/kathe_cover-1.jpg');
+    background-size: 50vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin: 20vh 10vw 30vh 10vw;
+    padding-bottom: 30vh;
+}
+
+main section:nth-of-type(3) article h3:nth-of-type(3) {
+    background-image: url('../img/bg-nicole-1.jpg');
+    background-size: 50vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 20vh 10vw 30vh 10vw;
+    padding-bottom: 30vh;
+}
+
+main section:nth-of-type(3) article h3:nth-of-type(4) {
+    background-image: url('../img/boa_cover-1.jpg');
+    background-size: 50vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin: 20vh 10vw 30vh 10vw;
+    padding-bottom: 30vh;
+}
+
+/* ================================================
+        MAIN SECTION 4 
+================================================= */
+
+main section:nth-of-type(4) {
+    background-color: #D2D2D2;
+    padding-top: 15vh;
+    font-size: 1.4rem;
+    color: #388883;
+}
+
+main section:nth-of-type(4) p:first-of-type {
+    padding: 0 0 8vh 10vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main section:nth-of-type(4) h2 {
+    font-family: 'Athene';
+    font-size: 14rem;
+    font-weight: 400;
+    color: #388883;
+}
+
+main section:nth-of-type(4) p:nth-of-type(2) {
+    color: #388883;
+    font-size: 2rem;
+    padding: 3vh 40vw 0 32vw;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+}
+
+main section:nth-of-type(4) ul {
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    color: #388883;
+    font-size: 2rem;
+    line-height: 2;
+    font-weight: 100;
+    padding: 10vh 5vw 10vh 0;
+}
+
+main section:nth-of-type(4) ul li a {
+    text-decoration: none;
+    color: #388883;
+}
+
+main section:nth-of-type(4) ul li a:hover {
+    text-decoration: underline;
+}
