@@ -85,11 +85,12 @@ main section:first-of-type h2:nth-of-type(2) {
 
 main section:first-of-type img {
     display: block;
-    padding: 10vh 34vw 0 34vw;
+    padding-top: 10vh;
+    margin: 0 37vw;
 }
 
 main section:first-of-type p {
-    padding: 5vh 0 20vh 34vw;
+    padding: 5vh 0 20vh 374vw;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
