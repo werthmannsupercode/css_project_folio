@@ -31,7 +31,7 @@ html {
 header {
     font-family: 'Open Sans', sans-serif;
     color: #042A5A;
-    border-bottom: 1px solid #042A5A;
+    border-bottom: 2px solid #042A5A;
     position: fixed;
     z-index: 1;
     width: 100vw;
@@ -40,7 +40,7 @@ header {
 header p {
     font-size: 1.4rem;
     display: inline-block;
-    padding: 3vh 62vw 3vh 10vw;
+    padding: 3vh 66vw 3vh 10vw;
 }
 
 header h1 {
@@ -73,7 +73,7 @@ main section:first-of-type h2 {
     font-size: 14rem;
     font-weight: 400;
     color: #042A5A;
-    border-bottom: 1px solid #D2D2D2;
+    border-bottom: 2px solid #D2D2D2;
     display: inline;
     margin: 0 12.5vw;
 }
@@ -90,7 +90,7 @@ main section:first-of-type img {
 }
 
 main section:first-of-type p {
-    padding: 5vh 0 20vh 374vw;
+    padding: 5vh 0 20vh 37vw;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
